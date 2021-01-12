@@ -1,0 +1,54 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(197, 197, 197);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 4px 15px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Condensed';
+    font-size: 14px;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: inline;
+}
+
+.search-conatiner {
+    border: black;
+}
+
+#bar {
+    list-style-type: none;
+    text-align: center;
+}
+
+#bar a {
+    padding: 5px 18px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
