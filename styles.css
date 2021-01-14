@@ -1,9 +1,9 @@
-ul {
+#top {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(197, 197, 197);
+    background-color: rgb(241, 241, 241);
   }
   
   li {
@@ -22,8 +22,8 @@ ul {
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    text-decoration: underline;
-    
+    text-decoration: underline ;
+   text-m
   }
 
 
@@ -66,3 +66,27 @@ label {
   font-size: 12px;
   }
 
+  .button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white; 
+    width: 200px;
+    font-size: 17px;
+    height: 35px;
+  }
+
+  #link {
+      list-style-type: none;
+  }
+
+  a {
+      text-decoration: none;
+  }
+
+  a:hover {
+      text-decoration: underline;
+  }
+
+  .under a:active {
+      color: black;
+  }
