@@ -143,3 +143,14 @@ label {
 .info-box {
     background-color: white;
 }
+
+.img-container {
+    position: relative;
+    color: white;
+  }
+
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
