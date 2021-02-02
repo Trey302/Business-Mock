@@ -121,11 +121,6 @@ label {
     color: black;
   }
 
-  .alert {
-   background-color:  rgb(241, 241, 241);
-   height: 80px;
-  }
-
   .account { 
     background-color: #012169;
     color: white;
@@ -147,6 +142,7 @@ label {
 .img-container {
     position: relative;
     color: white;
+    
   }
 
   .top-left {
@@ -154,3 +150,22 @@ label {
     top: 8px;
     left: 16px;
   }
+
+div.alert {
+        position: sticky;
+        background-color: rgb(241, 241, 241);
+        height: 80px;
+        top: 0;
+      }
+  
+.img-holder {
+        position: relative;
+        color: white;
+      }
+
+.top-right {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+        margin-right: 295px;
+      }
